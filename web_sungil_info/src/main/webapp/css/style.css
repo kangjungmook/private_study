@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#logo img {
+  width: 200px;
+  height: auto;
+}
+
+#top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  background-color: #f8f8f8;
+}
+
+.search__box {
+  display: flex;
+  align-items: center;
+}
+
+.search__input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+}
+
+.search__submit {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.main-menu li {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.main-menu a {
+  color: #333;
+  text-decoration: none;
+}
+
+.imgs {
+  position: relative;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.imgs img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.welcome {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.welcome span {
+  font-size: 24px;
+}
+
+.notice {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.notice h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.table th, .table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.table a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#address img {
+  margin-top: 20px;
+  width: 200px;
+  height: auto;
+}
+
+.clear {
+  clear: both;
+}
